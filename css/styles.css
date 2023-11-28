@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans Black', 'Alegreya';
+    cursor: pointer;
+}
+
+.container{
+    background: url('../image/green-grass-vector-seamless-texture-lawn-nature-meadow-plant-field-natural-outdoor-illustration_1284-47056.jpg');
+    min-height: 100vh;
+}
+
+/*header*/
+header{
+    width: 100%;
+    height: 5vh;
+    padding: 0.5rem 5rem;
+    background-color: rgba(138, 0, 0, 0.8);
+}
+nav{
+    display: inline;
+    float: right;
+}
+ul{
+    list-style: none;
+}
+ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+ul li a i {
+    padding: 0 0.5rem;
+}
+.number_of_items{
+    margin: 0 0.2rem;
+    font-size: small;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    display: block;
+    width: 100%;
+    background-color: white;
+    padding: 0.2rem 7rem;
+}
+.navigation ul li a {
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+.img{
+    background-image: url('../image/download-removebg-preview.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.list {
+    display: inline;
+    float: right;
+    width: 50%;
+    margin: -70px;
+}
+

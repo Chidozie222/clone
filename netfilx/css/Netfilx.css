@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0,0,0,1)
+    ),
+    url('../image/NG-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    height: 100vh;
+    width: 100%;
+}
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+}
+.hero_logo {
+    height: 200px;
+    width: 400px;
+    background: url('../image/Logos-Readability-Netflix-logo-removebg-preview.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+.hero .header .hero_login {
+    height: 100px;
+    width: 20ch;
+    float: right;
+    position: relative;
+    top: 70px;
+    right: 5px;
+    margin-left: 900px;
+}
+.hero .header .hero_login .btn {
+    background-color: red;
+    padding: 0.5rem, 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.subhero {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.subhero h1 , p{
+    font-weight: 800;
+}
+.subhero p {
+    font-weight: 500;
+}
+.subhero div input {
+    height: 55px;
+    width: 400px;
+    background: transparent;
+    border: 1px solid green;
+    backdrop-filter: blur(3px);
+    border-radius: 6px;
+    padding-left: 20px;
+}
+.subhero div button {
+    height: 55px;
+    font-size: 1.2rem;
+    background-color: red;
+    font-weight: 700;
+}
+.subhero div button:hover {
+    background-color: red;
+}
+.body hr {
+    height: 0.5rem;
+    border: none;
+    color: rgba(128, 128, 128, 0.1);
+    margin: 0;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px grey; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(35,35,35, 0.5); 
+    border-radius: 10px;
+  }
+
+  .sub_body {
+    background-color: #000;
+    color: #fff;
+  }
+  .first_session {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+  }
+  .first_session div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first_session div h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: left;
+    margin-right: 10px;
+  }
+
+  .first_session div p {
+    width: 50ch;
+    font-weight: 400;
+}
+.sub_body hr {
+    background-color: #808080;
+}
+.second_session {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+}
+.second_session .left {
+    padding-left: 150px;
+}
+.second_session .left .float {
+    z-index: 1;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    width: 350px;
+    grid-column-gap: 0;
+    padding: 8px 12px;
+    top: -140px;
+    left: 150px;
+    background-color: #000;
+}
+.second_session .left .float img {
+    height: 5rem;
+}
+.second_session .left .float .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-top: 9px;
+}
+.second_session .left .float .txt h4{
+    font-size: 1.2rem;
+    width: 15ch;
+    margin: 0;
+}
+
+.second_session .left .float .txt p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #0000ff;
+}
+
+.second_session .left .float .download {
+    background-image: url('../image/download-icon.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 30px;
+}
+
+.second_session .right {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.second_session .right h1 {
+    width: 20ch;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.second_session .right p {
+    width: 50ch;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.third_session {
+    padding: 5rem 18rem;
+}
+.third_session h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    width: 10ch;
+}
+.third_session p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 30ch;
+}
+.fourth_session {
+    padding: 5rem 0 5rem 9rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.fourth_session .text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.fourth_session .text h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+.fourth_session .text p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 50ch;
+}
+
+.fifth_session {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fifth_session h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+.fifth_session p {
+    font-weight: 300;
+    font-size: 1rem;
+}
+.fifth_session .form input {
+    height: 55px;
+    width: 400px;
+    background: transparent;
+    border: 1px solid green;
+    backdrop-filter: blur(3px);
+    border-radius: 6px;
+    padding-left: 20px;
+    color: #fff;
+}
+.fifth_session .form .btn {
+    height: 55px;
+    font-size: 1.2rem;
+    background-color: red;
+    font-weight: 700;
+}
+
+.fifth_session .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    width: 1100px;
+    height: 80px;
+    border-radius: 0;
+    margin-bottom: 10px;
+    background-color: rgb(49, 48, 48);
+    color: #fff;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fifth_session .card p {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.fifth_session .card .add_icon {
+    text-align: right;
+    float: right;
+    width: 5ch;
+    margin-left: 500px;
+    font-size: 2rem;
+}
+
+.fifth_session .card:hover {
+    background-color: rgb(75, 74, 74);
+}
+
+#one_text {
+    display: grid;
+    width: 127ch;
+    border-radius: 0;
+    margin-bottom: 10px;
+    background-color: rgb(49, 48, 48);
+    color: #fff;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+}
+#one_text {
+    display: none;
+}
+
+#two_text {
+    display: grid;
+    width: 127ch;
+    border-radius: 0;
+    margin-bottom: 10px;
+    background-color: rgb(49, 48, 48);
+    color: #fff;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+#two_text {
+    display: none;
+}
+
+#three_text {
+    display: grid;
+    width: 127ch;
+    border-radius: 0;
+    margin-bottom: 10px;
+    background-color: rgb(49, 48, 48);
+    color: #fff;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+}
+#three_text {
+    display: none;
+}
+
+#fourth_text {
+    display: grid;
+    width: 127ch;
+    border-radius: 0;
+    margin-bottom: 10px;
+    background-color: rgb(49, 48, 48);
+    color: #fff;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+#fourth_text {
+    display: none;
+}
+
+#fifth_text {
+    display: grid;
+    width: 127ch;
+    border-radius: 0;
+    margin-bottom: 10px;
+    background-color: rgb(49, 48, 48);
+    color: #fff;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+#fifth_text {
+    display: none;
+}
+
+#sixth_text {
+    display: grid;
+    width: 127ch;
+    border-radius: 0;
+    margin-bottom: 10px;
+    background-color: rgb(49, 48, 48);
+    color: #fff;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+#sixth_text {
+    display: none;
+}
