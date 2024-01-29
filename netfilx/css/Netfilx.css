@@ -10,7 +10,7 @@
         rgba(0,0,0,1)
     ),
     url('../image/NG-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg');
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .header {
